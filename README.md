@@ -14,7 +14,7 @@ Have a bug or an issue with this theme? [Open a new issue](https://github.com/Ir
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **Irving Mingüer**, Enlace at [Fiscalía General de la República, Fiscalía Especializada en MAteria de Derechos Humanos, Dirección General de Análisis y Proyectos ](https://www.gob.mx/fgr/).
+Start Bootstrap was created by and is maintained by **Irving Mingüer**, Enlace at [Fiscalía General de la República, Fiscalía Especializada en Materia de Derechos Humanos, Dirección General de Análisis y Proyectos ](https://www.gob.mx/fgr/).
 
 * https://github.com/uliseforo
 
