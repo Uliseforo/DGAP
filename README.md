@@ -14,13 +14,10 @@ Have a bug or an issue with this theme? [Open a new issue](https://github.com/Ir
 
 ## Creator
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+Start Bootstrap was created by and is maintained by **Irving Mingüer**, Enlace at [Fiscalía General de la República, Fiscalía Especializada en MAteria de Derechos Humanos, Dirección General de Análisis y Proyectos ](https://www.gob.mx/fgr/).
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+* https://github.com/uliseforo
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) 
 ## Copyright and License
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
