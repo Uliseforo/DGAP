@@ -13,6 +13,29 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <style type="text/css">
+
+    #mapaspd{
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+    .responsive{
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+    }
+
+    .responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+</style>
+
     <title>DGAP BASE DE DATOS AMPM</title>
 
 
@@ -26,6 +49,7 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="textcss" href="css/iiframe.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -102,13 +126,28 @@
                 <p>Indeterminado: 99</p>
             </div>
             <div class="col-lg-7 col-lg-offset-1">
-                <img src="img/pdes.png" alt="" width="100%" height="100%" />
+                <img src="img/pdes.png" alt="" width="95%" height="95%" />
             </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
+        </div>
+
                 <br>
                 <div class="text-center">
-                    <p>Mapa de Personas Desaparecidas por Estado y Municipios</p>
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1p6k8qVzIP4ZK5lD85YwOcf57HU7ushIS" width="840" height="500"></iframe>                </div>
+                    <br>
+                    <h4>Mapa de Personas Desaparecidas por Estado y Municipios</h4>
+                    <br>
+                </div>
+                    <div id="mapaspd">
+                        <div class="responsive">
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1p6k8qVzIP4ZK5lD85YwOcf57HU7ushIS" frameborder="0" allowfullscreen></iframe>    
+                        </div>
+                        <small>Escala a color rojo de Personas Desaparecidas por Estados y Municipios</small>       
+                    </div>
+
+
+
+                    <!--    <div class="embed-container">
+                         <iframe src="https://www.google.com/maps/d/embed?mid=1p6k8qVzIP4ZK5lD85YwOcf57HU7ushIS" 
+                          width="100%" height="100%" frameborder="0" style="border:0" ></iframe>    -->
             </div>
         </div>
     </div>

@@ -13,6 +13,30 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <style type="text/css">
+
+        #mapascpm{
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+        }
+        .responsive{
+            position: relative;
+            overflow: hidden;
+            padding-top: 56.25%;
+        }
+    
+        .responsive iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    
+    </style>
+    
+
     <title>DGAP BASE DE DATOS AMPM</title>
 
 
@@ -26,6 +50,8 @@
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="textcss" href="css/iiframe.css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -94,9 +120,14 @@
             <p>Se refiere a una persona fallecida que ha sido encontrada y de quien no conoce su identidad. El módulo integra toda la información obtenida en el examen forense de esta persona, partiendo de datos particulares de su recuperación (grado de descomposición, posición y elementos asociados entre otros), incluyendo un inventario detallado y el resultado de cada tipo de estudio médico, odontológico, antropológico entre otros.</p>
         </div>
         <div class="text-center">
-            <p>Mapa de fosas y restos en superficie de Guerrero</p>
-            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=16rIVMxhzRT5GOLAP-VX1eXZ87RPXVtr6" width="840" height="500"></iframe>        </div>
+            <h4>Mapa de Casos Post Mortem por Estados y Municipios</h4>
         </div>
+            <div id="mapascpm">
+                <div class="responsive">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1F2aOFJTXbPq19silygJ1aFm5e8d3WWIo" allowfullscreen></iframe>
+                </div>
+                <small>Escala a color rojo de Casos Post Mortem por Estados y Municipios</small>       
+            </div>
     </div>
 </section>
 
